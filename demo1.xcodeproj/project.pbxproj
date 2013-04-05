@@ -10,6 +10,7 @@
 		A7F316F5170ECB8C00E0322C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F316F4170ECB8C00E0322C /* Foundation.framework */; };
 		A7F316F8170ECB8C00E0322C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F316F7170ECB8C00E0322C /* main.m */; };
 		A7F316FC170ECB8C00E0322C /* demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F316FB170ECB8C00E0322C /* demo1.1 */; };
+		A7F31704170ECBA500E0322C /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F31703170ECBA500E0322C /* DemoFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A7F316F7170ECB8C00E0322C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7F316FA170ECB8C00E0322C /* demo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo1-Prefix.pch"; sourceTree = "<group>"; };
 		A7F316FB170ECB8C00E0322C /* demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo1.1; sourceTree = "<group>"; };
+		A7F31702170ECBA500E0322C /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
+		A7F31703170ECBA500E0322C /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 				A7F316F6170ECB8C00E0322C /* demo1 */,
 				A7F316F3170ECB8C00E0322C /* Frameworks */,
 				A7F316F2170ECB8C00E0322C /* Products */,
+				A7F316F9170ECB8C00E0322C /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A7F316F7170ECB8C00E0322C /* main.m */,
-				A7F316FB170ECB8C00E0322C /* demo1.1 */,
-				A7F316F9170ECB8C00E0322C /* Supporting Files */,
+				A7F31702170ECBA500E0322C /* DemoFile.h */,
+				A7F31703170ECBA500E0322C /* DemoFile.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -83,9 +87,11 @@
 		A7F316F9170ECB8C00E0322C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7F316FB170ECB8C00E0322C /* demo1.1 */,
 				A7F316FA170ECB8C00E0322C /* demo1-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = demo1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F316F8170ECB8C00E0322C /* main.m in Sources */,
+				A7F31704170ECBA500E0322C /* DemoFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
