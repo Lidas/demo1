@@ -11,6 +11,7 @@
 		A7F316F8170ECB8C00E0322C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F316F7170ECB8C00E0322C /* main.m */; };
 		A7F316FC170ECB8C00E0322C /* demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F316FB170ECB8C00E0322C /* demo1.1 */; };
 		A7F31704170ECBA500E0322C /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F31703170ECBA500E0322C /* DemoFile.m */; };
+		A7F31707170ECE0600E0322C /* DemoFileX.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F31706170ECE0600E0322C /* DemoFileX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		A7F316FB170ECB8C00E0322C /* demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo1.1; sourceTree = "<group>"; };
 		A7F31702170ECBA500E0322C /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
 		A7F31703170ECBA500E0322C /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
+		A7F31705170ECE0600E0322C /* DemoFileX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFileX.h; sourceTree = "<group>"; };
+		A7F31706170ECE0600E0322C /* DemoFileX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFileX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				A7F316F7170ECB8C00E0322C /* main.m */,
 				A7F31702170ECBA500E0322C /* DemoFile.h */,
 				A7F31703170ECBA500E0322C /* DemoFile.m */,
+				A7F31705170ECE0600E0322C /* DemoFileX.h */,
+				A7F31706170ECE0600E0322C /* DemoFileX.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			files = (
 				A7F316F8170ECB8C00E0322C /* main.m in Sources */,
 				A7F31704170ECBA500E0322C /* DemoFile.m in Sources */,
+				A7F31707170ECE0600E0322C /* DemoFileX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
